@@ -13,13 +13,17 @@ body {
     padding: 0;
 }
 
+.nav {
+    color: black;
+}
+
 .btn {
     display: inline-block;
     padding: 0.5rem 1rem;
-    color: #fff;
     background-color: #c0192a;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 16px ;
 }
 
 form {
@@ -36,8 +40,8 @@ ul {
 
 a {
     text-decoration-line: none;
-    color: black ;
-    font-size: x-large;
+    color: white ;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 550;
 }
@@ -81,24 +85,35 @@ li {
 
 .actu {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
-}
-
-
-
-h2 {
-    text-align: center;
 }
 
 .articles {
     background-color: #282725;
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 40vh;
+    height: 45vh;
+  
 }
 
-.image {
-    width: 30%;
+.articles .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+
+.texte {
+    color: white;
+}
+
+.articles .texte {
+    padding: 10px;
+    text-align: left;
+}
+
+.contact {
+    background-color: #282725;
 }
