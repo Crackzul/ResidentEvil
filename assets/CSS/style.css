@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Regular", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -53,8 +53,64 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .logo {
     width: 30%;
 }
+
+.Redecouvrez {
+    text-transform: capitalize;
+    color: white;
+    font-size: 2rem;    
+}
+
+.survivez {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.actu {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box1 {
+    background-image: url("../img/new-monsters.jpg");
+    height:30vh;
+    width: 25vh;
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url("../img/new-graphism.jpg");
+    height: 30vh;
+    height:30vh;
+    width: 25vh;
+    background-size: cover;
+}
+
+
+.box3 {
+    background-image: url("../img/new-gameplay.jpeg");
+    height: 30vh;
+    height:30vh;
+    width: 25vh;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+}
+
+.article {
+    background-color: #282725;
+    display: flex;
+}
+
