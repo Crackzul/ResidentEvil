@@ -87,9 +87,14 @@ h2 {
     text-align: center;
 }
 
-.article {
+.articles {
     background-color: #282725;
     display: flex;
     flex-direction: column;
+    width: 20%;
 }
 
+.image {
+    width: 30%;
+    overflow :hidden
+}
