@@ -44,3 +44,17 @@ li {
     color: black;
     
 }
+
+.re4 {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+}
