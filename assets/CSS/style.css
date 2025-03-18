@@ -81,29 +81,7 @@ li {
     justify-content: center;
 }
 
-.box1 {
-    background-image: url("../img/new-monsters.jpg");
-    height:30vh;
-    width: 25vh;
-    background-size: cover;
-}
 
-.box2 {
-    background-image: url("../img/new-graphism.jpg");
-    height: 30vh;
-    height:30vh;
-    width: 25vh;
-    background-size: cover;
-}
-
-
-.box3 {
-    background-image: url("../img/new-gameplay.jpeg");
-    height: 30vh;
-    height:30vh;
-    width: 25vh;
-    background-size: cover;
-}
 
 h2 {
     text-align: center;
@@ -112,5 +90,6 @@ h2 {
 .article {
     background-color: #282725;
     display: flex;
+    flex-direction: column;
 }
 
